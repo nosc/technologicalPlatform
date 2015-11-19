@@ -9,7 +9,7 @@ TEMPLATE = subdirs
 QMAKE_CXXFLAGS = -std=c++0x
 QMAKE_LFLAGS += -fprofile-arcs
 
-SUBDIRS += lua dbproxier \
+SUBDIRS += lua \
     dbProxierCore \
     dbProxierService
 
